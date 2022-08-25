@@ -1,0 +1,26 @@
+.btn {
+  width: 100%;
+  background-color: darkcyan;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 0;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 18px;
+  box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.3);
+  margin: 30px 15px;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
+
+.btn:hover {
+  opacity: 75%;
+}

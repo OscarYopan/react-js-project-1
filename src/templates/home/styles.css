@@ -1,0 +1,25 @@
+.container {
+  min-height: 100vh;
+  background-color: #d0d0d0;
+}
+
+.button-container {
+  min-height: 60px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.search-container h1 {
+  margin-bottom: 30px;
+}
+
+.error-search {
+  margin: 15px;
+}
